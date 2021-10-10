@@ -61,8 +61,8 @@
                     "field": "Jobs",
                     "type": "quantitative",
                     "scale": {
-                        "domain": [0,100,200,300,700],
-                        "range": ["#BFD7ED","#60A3D9","#0074B7",  "#003B73","#0C2D48"]
+                        "domain": [0,700],
+                        "range": ["#BFD7ED","#0C2D48"]
                     }
                 },
                 "tooltip": [
