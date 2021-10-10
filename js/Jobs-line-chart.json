@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/yash-peiris/data-science-job-visualization/main/data/Jobs-per-date.csv"
+    "url": "https://raw.githubusercontent.com/yash-peiris/FIT3179-Week-10-Homework/main/data/Jobs-per-date.csv"
   },
   "width": "container",
   "height" : 500,

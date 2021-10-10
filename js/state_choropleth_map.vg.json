@@ -20,7 +20,7 @@
   ],
   "layer": [{
           "data": {
-              "url": "https://raw.githubusercontent.com/yash-peiris/data-science-job-visualization/main/js/Australian-states.topojson",
+              "url": "https://raw.githubusercontent.com/yash-peiris/FIT3179-Week-10-Homework/main/js/Australian-states.topojson",
               "format": { "type": "topojson", "feature": "Australian-states" }
           },
           "transform": [{
@@ -37,13 +37,13 @@
       },
       {
           "data": {
-              "url": "https://raw.githubusercontent.com/yash-peiris/data-science-job-visualization/main/data/Jobs-per-date-state.csv"
+              "url": "https://raw.githubusercontent.com/yash-peiris/FIT3179-Week-10-Homework/main/data/Jobs-per-date-state.csv"
           },
           "transform": [{
                   "lookup": "state",
                   "from": {
                       "data": {
-                          "url": "https://raw.githubusercontent.com/yash-peiris/data-science-job-visualization/main/js/Australian-states.topojson",
+                          "url": "https://raw.githubusercontent.com/yash-peiris/FIT3179-Week-10-Homework/main/js/Australian-states.topojson",
                           "format": {
                               "type": "topojson",
                               "feature": "Australian-states"
